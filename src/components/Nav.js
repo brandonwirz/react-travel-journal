@@ -1,5 +1,5 @@
 import React from "react"
-import "../style.css"
+
 ///eslint-disable
 //prettier-ignore
 export default function Nav() {
@@ -7,7 +7,6 @@ export default function Nav() {
     <nav>
       <img className="globe" src={"./images/globe-icon.png"} alt="globe-icon"/>
       <p className="wh-headline">my travel journal</p>
-
     </nav>
   )
 }

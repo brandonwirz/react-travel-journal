@@ -18,7 +18,7 @@ const data = [
     startDate: "12 Jan, 2022",
     endDate: "24 Jan, 2022",
     description:
-      "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+      "Matterhorn,one o,g the frontier between Switzerland and Italy, 6 miles (10 km) southwest of the village of Zermatt, Switzerland. Matterhorn means “the peak in the meadows,” from the German words Matte (“meadow”)",
     imageUrl: "matterhorn.jpg",
   },
   {

@@ -4,7 +4,11 @@ export default function Card(props) {
   return (
     <section className="wrapper">
       <div className="card">
-        <img src={`./images/${props.item.imageUrl}`} className="card-image" />
+        <img
+          src={`./images/${props.item.imageUrl}`}
+          className="card-image"
+          alt="img-url"
+        />
         <div className="image-info">
           <div className="card-location">
             <img
@@ -24,6 +28,7 @@ export default function Card(props) {
           <p className="card-desc">{props.item.description}</p>
         </div>
       </div>
+      <div>{/* <hr className="hr" /> */}</div>
     </section>
   )
 }

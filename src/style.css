@@ -7,34 +7,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* nav {
-  display: flex;
-  justify-content: center;
-  background: #f55a5a;
-  min-height: 60px;
-  align-items: center;
-}
-
-p.wh-headline {
-  color: white;
-}
-
-
-.travel-img {
-  width: 400px;
-}
-/* .all-caps {
-  text-transform: uppercase;
-} */
-
 .globe {
   padding: 10px;
   width: 49px;
 }
-/* .text-container,
-.img-container {
-  width: 480px;
-} */
+
 .bold {
   font-weight: 800;
 }
@@ -69,18 +46,20 @@ section {
   font-size: 12px;
   flex-direction: row;
   margin-bottom: 20px;
-  border-bottom: 1px solid #f5f5f5;
+  /* border-bottom: 1px solid #f5f5f5; */
 }
 .card-image {
-  width: 125px;
-  height: 168px;
+  width: 130px;
+  height: 170px;
+  object-fit: cover;
+  object-position: 43% 15%;
   border-radius: 5px;
   margin-right: 20px;
-  flex: 1;
+  flex: 1 1;
 }
 .image-info {
   padding: 20px 00px;
-  flex: 5;
+  /* flex: 5; */
 }
 .card-location {
   display: flex;
@@ -126,15 +105,23 @@ section {
   color: #2b283a;
   margin-top: 5px;
 }
-
+.hr {
+  display: flex;
+  border-bottom: 1px solid rgb(179, 27, 27);
+  flex-direction: row;
+}
 @media (max-width: 500px) {
   .card {
     display: flex;
     width: 500px;
-    height: 190px;
+    min-height: 130px;
     font-size: 12px;
     flex-direction: column;
     margin-bottom: 20px;
-    border-bottom: 1px solid #f5f5f5;
+    /* border-bottom: 1px solid #f5f5f5; */
+  }
+  .card-image {
+    width: 130px;
+    height: 86px;
   }
 }
