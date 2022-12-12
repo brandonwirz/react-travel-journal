@@ -21,14 +21,13 @@ export default function Card(props) {
               <a href={props.item.googleMapsUrl}>View on Google Maps</a>
             </span>
           </div>
-          <h2 className="card-title">{props.item.title}</h2>
+          <h1 className="card-title">{props.item.title}</h1>
           <span className="card-date">
             {props.item.startDate} - {props.item.endDate}
           </span>
           <p className="card-desc">{props.item.description}</p>
         </div>
       </div>
-      <div>{/* <hr className="hr" /> */}</div>
     </section>
   )
 }
